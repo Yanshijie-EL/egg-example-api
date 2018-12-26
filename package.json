@@ -1,7 +1,7 @@
 {
-  "name": "eShowCase.eLearning.Api.external",
+  "name": "example-api",
   "version": "1.0.0",
-  "description": "eShowCase.eLearning.Api.external",
+  "description": "example for swagger-doc",
   "private": true,
   "dependencies": {
     "egg": "^2.2.1",
@@ -43,6 +43,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "ken",
+  "author": "yanshijie",
   "license": "MIT"
 }
