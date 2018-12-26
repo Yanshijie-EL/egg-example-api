@@ -1,6 +1,3 @@
-## eShowCase-eLearning-Api
-
- 
 ### Build Setup
 
 ```bash
@@ -27,10 +24,8 @@ $ npm stop
 
 ### URL 
 
-- dev: https://eshowcase-elearning-api-external-latest.dev.pcf.mkc.io
+- swaggerUI: http://localhost:7001/swagger-ui.html
 
-- qa: https://eshowcase-elearning-api-external-latest.qa.pcf.mkc.io
+- JSON
+http://localhost:7001/swagger-doc
 
-- uat: https://eshowcase-elearning-api-external-latest.uat.pcf.mkc.io
-
-- prod: https://eshowcase-elearning-api-external-latest.prod.pcf.mkc.io
