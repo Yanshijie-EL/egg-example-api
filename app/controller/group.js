@@ -24,6 +24,13 @@ class GroupController extends Controller {
     ctx.body = await service.group.createGroup(req.groupName);
 
   }
+  
+  /**
+   * @ignore
+   */
+  async nothing(){
+    ctx.body= 'nothing';
+  }
 
   /**
    * @summary 获取用户
