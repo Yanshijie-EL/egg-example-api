@@ -24,19 +24,20 @@ class GroupController extends Controller {
     ctx.body = await service.group.createGroup(req.groupName);
 
   }
-  
+
   /**
    * @ignore
    */
-  async nothing(){
-    ctx.body= 'nothing';
+  async nothing() {
+    const { ctx } = this;
+    ctx.body = 'nothing';
   }
 
   /**
    * @summary 获取用户
    * @description 根据组别获取负责人信息
    * @router get /v1/gourps/{id}/leader
-   * @request path integer *id
+   * @request path integer *id eg:1 小组ＩＤ
    * @response 200 getLeaderByGroupResponse 用户信息
    */
   async get() {
