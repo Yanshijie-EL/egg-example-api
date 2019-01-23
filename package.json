@@ -6,7 +6,7 @@
   "dependencies": {
     "egg": "^2.2.1",
     "egg-scripts": "^2.5.0",
-    "egg-swagger-doc": "^2.1.4",
+    "egg-swagger-doc": "^2.2.2",
     "egg-validate": "^1.0.0",
     "uuid": "^3.3.2"
   },
